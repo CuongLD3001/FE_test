@@ -2,16 +2,7 @@ import { createRouter, createWebHistory } from "vue-router";
 
 const routes = [
   {
-    path: "/about",
-    name: "About",
-    meta: {
-      layout: "auth",
-    },
-    component: () =>
-      import(/* webpackChunkName: "about" */ "../views/AboutView.vue"),
-  },
-  {
-    path: "/slide",
+    path: "/",
     name: "Slide",
     meta: {
       layout: "default",
